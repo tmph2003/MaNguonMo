@@ -1,0 +1,315 @@
+Sun Dec 10 05:07:05 PM +07 2023 Starting thrift on tmph2003
+real-time non-blocking time  (microseconds, -R) unlimited
+core file size              (blocks, -c) 0
+data seg size               (kbytes, -d) unlimited
+scheduling priority                 (-e) 0
+file size                   (blocks, -f) unlimited
+pending signals                     (-i) 62540
+max locked memory           (kbytes, -l) 2010668
+max memory size             (kbytes, -m) unlimited
+open files                          (-n) 1024
+pipe size                (512 bytes, -p) 8
+POSIX message queues         (bytes, -q) 819200
+real-time priority                  (-r) 0
+stack size                  (kbytes, -s) 8192
+cpu time                   (seconds, -t) unlimited
+max user processes                  (-u) 62540
+virtual memory              (kbytes, -v) unlimited
+file locks                          (-x) unlimited
+2023-12-10 17:07:05,625 INFO  [main] util.VersionInfo: HBase 1.4.9
+2023-12-10 17:07:05,625 INFO  [main] util.VersionInfo: Source code repository git://apurtell-ltm4.internal.salesforce.com/Users/apurtell/src/hbase revision=d625b212e46d01cb17db9ac2e9e927fdb201afa1
+2023-12-10 17:07:05,626 INFO  [main] util.VersionInfo: Compiled by apurtell on Wed Dec  5 11:54:10 PST 2018
+2023-12-10 17:07:05,626 INFO  [main] util.VersionInfo: From source with checksum a7716fc1849b07ea6dd830a08291e754
+2023-12-10 17:07:05,911 INFO  [main] thrift.ThriftServerRunner: Using default thrift server type
+2023-12-10 17:07:05,911 INFO  [main] thrift.ThriftServerRunner: Using thrift server type threadpool
+2023-12-10 17:07:05,937 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2023-12-10 17:07:06,306 INFO  [main] metrics.MetricRegistries: Loaded MetricRegistries class org.apache.hadoop.hbase.metrics.impl.MetricRegistriesImpl
+2023-12-10 17:07:06,438 INFO  [main] mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2023-12-10 17:07:06,443 INFO  [main] http.HttpRequestLog: Http request log for http.requests.thrift is not defined
+2023-12-10 17:07:06,454 INFO  [main] http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.hbase.http.HttpServer$QuotingInputFilter)
+2023-12-10 17:07:06,455 INFO  [main] http.HttpServer: Added global filter 'clickjackingprevention' (class=org.apache.hadoop.hbase.http.ClickjackingPreventionFilter)
+2023-12-10 17:07:06,458 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context thrift
+2023-12-10 17:07:06,458 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context logs
+2023-12-10 17:07:06,458 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+2023-12-10 17:07:06,475 INFO  [main] http.HttpServer: Jetty bound to port 9095
+2023-12-10 17:07:06,475 INFO  [main] mortbay.log: jetty-6.1.26
+2023-12-10 17:07:06,694 INFO  [main] mortbay.log: Started SelectChannelConnector@0.0.0.0:9095
+2023-12-10 17:07:06,721 INFO  [main] thrift.ThriftServerRunner: starting TBoundedThreadPoolServer on /0.0.0.0:9090 with readTimeout 60000ms; min worker threads=16, max worker threads=1000, max queued requests=1000
+Sun Dec 10 05:26:17 PM +07 2023 Terminating thrift
+2023-12-10 17:26:17,927 INFO  [main] thrift.TBoundedThreadPoolServer: Waiting for up to 60000 ms to finish processing pending requests
+2023-12-10 17:26:17,928 INFO  [main] thrift.TBoundedThreadPoolServer: Interrupting all worker threads and waiting for 5000 ms longer
+Sun Dec 10 05:26:32 PM +07 2023 Starting thrift on tmph2003
+real-time non-blocking time  (microseconds, -R) unlimited
+core file size              (blocks, -c) 0
+data seg size               (kbytes, -d) unlimited
+scheduling priority                 (-e) 0
+file size                   (blocks, -f) unlimited
+pending signals                     (-i) 62540
+max locked memory           (kbytes, -l) 2010668
+max memory size             (kbytes, -m) unlimited
+open files                          (-n) 1024
+pipe size                (512 bytes, -p) 8
+POSIX message queues         (bytes, -q) 819200
+real-time priority                  (-r) 0
+stack size                  (kbytes, -s) 8192
+cpu time                   (seconds, -t) unlimited
+max user processes                  (-u) 62540
+virtual memory              (kbytes, -v) unlimited
+file locks                          (-x) unlimited
+2023-12-10 17:26:32,404 INFO  [main] util.VersionInfo: HBase 1.4.9
+2023-12-10 17:26:32,405 INFO  [main] util.VersionInfo: Source code repository git://apurtell-ltm4.internal.salesforce.com/Users/apurtell/src/hbase revision=d625b212e46d01cb17db9ac2e9e927fdb201afa1
+2023-12-10 17:26:32,405 INFO  [main] util.VersionInfo: Compiled by apurtell on Wed Dec  5 11:54:10 PST 2018
+2023-12-10 17:26:32,405 INFO  [main] util.VersionInfo: From source with checksum a7716fc1849b07ea6dd830a08291e754
+2023-12-10 17:26:32,672 INFO  [main] thrift.ThriftServerRunner: Using default thrift server type
+2023-12-10 17:26:32,672 INFO  [main] thrift.ThriftServerRunner: Using thrift server type threadpool
+2023-12-10 17:26:32,699 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2023-12-10 17:26:33,092 INFO  [main] metrics.MetricRegistries: Loaded MetricRegistries class org.apache.hadoop.hbase.metrics.impl.MetricRegistriesImpl
+2023-12-10 17:26:33,226 INFO  [main] mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2023-12-10 17:26:33,230 INFO  [main] http.HttpRequestLog: Http request log for http.requests.thrift is not defined
+2023-12-10 17:26:33,239 INFO  [main] http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.hbase.http.HttpServer$QuotingInputFilter)
+2023-12-10 17:26:33,240 INFO  [main] http.HttpServer: Added global filter 'clickjackingprevention' (class=org.apache.hadoop.hbase.http.ClickjackingPreventionFilter)
+2023-12-10 17:26:33,244 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context thrift
+2023-12-10 17:26:33,245 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context logs
+2023-12-10 17:26:33,245 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+2023-12-10 17:26:33,266 INFO  [main] http.HttpServer: Jetty bound to port 9095
+2023-12-10 17:26:33,266 INFO  [main] mortbay.log: jetty-6.1.26
+2023-12-10 17:26:33,530 INFO  [main] mortbay.log: Started SelectChannelConnector@0.0.0.0:9095
+2023-12-10 17:26:33,555 INFO  [main] thrift.ThriftServerRunner: starting TBoundedThreadPoolServer on /0.0.0.0:9090 with readTimeout 60000ms; min worker threads=16, max worker threads=1000, max queued requests=1000
+2023-12-10 17:26:45,245 INFO  [thrift-worker-0] zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x7933c14d connecting to ZooKeeper ensemble=localhost:2181
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:host.name=tmph2003
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:java.version=1.8.0_202
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:java.vendor=Oracle Corporation
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:java.home=/home/tmph2003/PhuongStudy/jdk1.8.0_202/jre
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: ar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/log4j-1.2.17.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/metrics-core-2.2.0.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/metrics-core-3.1.2.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/netty-all-4.1.8.Final.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/paranamer-2.3.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/protobuf-java-2.5.0.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/servlet-api-2.5-6.1.14.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/slf4j-api-1.7.7.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/slf4j-log4j12-1.7.10.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/snappy-java-1.0.5.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/spymemcached-2.11.6.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/xmlenc-0.52.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/xz-1.0.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/bin/../lib/zookeeper-3.4.10.jar:
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:os.name=Linux
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:os.arch=amd64
+2023-12-10 17:26:45,256 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:os.version=6.2.0-32-generic
+2023-12-10 17:26:45,257 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:user.name=tmph2003
+2023-12-10 17:26:45,257 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:user.home=/home/tmph2003
+2023-12-10 17:26:45,257 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Client environment:user.dir=/home/tmph2003/PhuongStudy/hbase-1.4.9/bin
+2023-12-10 17:26:45,258 INFO  [thrift-worker-0] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@6a935458
+2023-12-10 17:26:45,346 INFO  [thrift-worker-0-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-12-10 17:26:45,350 INFO  [thrift-worker-0-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2023-12-10 17:26:45,364 INFO  [thrift-worker-0-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x18c532ef3090007, negotiated timeout = 40000
+2023-12-10 17:26:47,733 INFO  [thrift-worker-0] client.HBaseAdmin: Created bitcoin_table
+2023-12-10 17:30:45,752 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:43431
+2023-12-10 17:30:45,752 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:45059
+2023-12-10 17:36:53,127 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing master protocol: MasterService
+2023-12-10 17:36:53,128 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x18c532ef3090007
+2023-12-10 17:36:53,131 INFO  [ConnectionCache_ChoreService_1] zookeeper.ZooKeeper: Session: 0x18c532ef3090007 closed
+2023-12-10 17:36:53,131 INFO  [thrift-worker-0-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x18c532ef3090007
+2023-12-10 18:00:23,051 INFO  [thrift-worker-1] zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x123f1e71 connecting to ZooKeeper ensemble=localhost:2181
+2023-12-10 18:00:23,052 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@1fccb7ba
+2023-12-10 18:00:23,053 INFO  [thrift-worker-1-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-12-10 18:00:23,054 INFO  [thrift-worker-1-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2023-12-10 18:00:23,057 INFO  [thrift-worker-1-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x18c532ef3090009, negotiated timeout = 40000
+2023-12-10 18:04:23,059 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:43431
+2023-12-10 18:04:23,059 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:45059
+2023-12-10 18:12:13,127 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing master protocol: MasterService
+2023-12-10 18:12:13,127 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x18c532ef3090009
+2023-12-10 18:12:13,130 INFO  [ConnectionCache_ChoreService_1] zookeeper.ZooKeeper: Session: 0x18c532ef3090009 closed
+2023-12-10 18:12:13,130 INFO  [thrift-worker-1-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x18c532ef3090009
+2023-12-10 20:21:37,649 INFO  [thrift-worker-4] zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x20705508 connecting to ZooKeeper ensemble=localhost:2181
+2023-12-10 20:21:37,649 INFO  [thrift-worker-4] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@2eb7af76
+2023-12-10 20:21:37,651 INFO  [thrift-worker-4-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-12-10 20:21:37,653 INFO  [thrift-worker-4-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2023-12-10 20:21:37,658 INFO  [thrift-worker-4-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x18c532ef309000c, negotiated timeout = 40000
+2023-12-10 20:21:45,159 WARN  [thrift-worker-4] thrift.ThriftServerRunner$HBaseHandler: No column qualifier specified. Delete is the only mutation supported over the whole column family.
+2023-12-10 20:21:45,161 ERROR [thrift-worker-4] thrift.TBoundedThreadPoolServer: Error occurred during processing of message.
+java.lang.IllegalArgumentException: Invalid famAndQf provided.
+	at org.apache.hadoop.hbase.thrift.ThriftServerRunner$HBaseHandler.mutateRowsTs(ThriftServerRunner.java:1377)
+	at org.apache.hadoop.hbase.thrift.ThriftServerRunner$HBaseHandler.mutateRows(ThriftServerRunner.java:1338)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.thrift.HbaseHandlerMetricsProxy.invoke(HbaseHandlerMetricsProxy.java:67)
+	at com.sun.proxy.$Proxy10.mutateRows(Unknown Source)
+	at org.apache.hadoop.hbase.thrift.generated.Hbase$Processor$mutateRows.getResult(Hbase.java:4390)
+	at org.apache.hadoop.hbase.thrift.generated.Hbase$Processor$mutateRows.getResult(Hbase.java:4374)
+	at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+	at org.apache.hadoop.hbase.thrift.TBoundedThreadPoolServer$ClientConnnection.run(TBoundedThreadPoolServer.java:290)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-12-10 20:25:37,660 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:45059
+2023-12-10 20:26:52,055 INFO  [thrift-worker-5] client.HBaseAdmin: Created bitcoin_table
+2023-12-10 20:29:37,660 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:43431
+2023-12-10 20:29:37,661 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:45059
+2023-12-10 20:37:13,127 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing master protocol: MasterService
+2023-12-10 20:37:13,127 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x18c532ef309000c
+2023-12-10 20:37:13,130 INFO  [ConnectionCache_ChoreService_1] zookeeper.ZooKeeper: Session: 0x18c532ef309000c closed
+2023-12-10 20:37:13,130 INFO  [thrift-worker-4-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x18c532ef309000c
+2023-12-10 20:55:06,380 INFO  [thrift-worker-6] zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x366d567c connecting to ZooKeeper ensemble=localhost:2181
+2023-12-10 20:55:06,380 INFO  [thrift-worker-6] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@24157281
+2023-12-10 20:55:06,382 INFO  [thrift-worker-6-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-12-10 20:55:06,383 INFO  [thrift-worker-6-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2023-12-10 20:55:06,386 INFO  [thrift-worker-6-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x18c532ef309000e, negotiated timeout = 40000
+2023-12-10 20:59:06,388 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:43431
+2023-12-10 21:05:13,127 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing master protocol: MasterService
+2023-12-10 21:05:13,128 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x18c532ef309000e
+2023-12-10 21:05:13,131 INFO  [ConnectionCache_ChoreService_1] zookeeper.ZooKeeper: Session: 0x18c532ef309000e closed
+2023-12-10 21:05:13,131 INFO  [thrift-worker-6-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x18c532ef309000e
+2023-12-10 21:07:54,145 INFO  [thrift-worker-8] zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x4f66b986 connecting to ZooKeeper ensemble=localhost:2181
+2023-12-10 21:07:54,146 INFO  [thrift-worker-8] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@41a15e1a
+2023-12-10 21:07:54,147 INFO  [thrift-worker-8-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-12-10 21:07:54,148 INFO  [thrift-worker-8-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2023-12-10 21:07:54,152 INFO  [thrift-worker-8-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x18c532ef309000f, negotiated timeout = 40000
+2023-12-10 21:11:54,153 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:45059
+2023-12-10 21:27:54,153 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:45059
+2023-12-10 21:34:33,127 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x18c532ef309000f
+2023-12-10 21:34:33,130 INFO  [ConnectionCache_ChoreService_1] zookeeper.ZooKeeper: Session: 0x18c532ef309000f closed
+2023-12-10 21:34:33,130 INFO  [thrift-worker-8-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x18c532ef309000f
+2023-12-10 21:36:11,920 INFO  [thrift-worker-7] zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x17aa0b1 connecting to ZooKeeper ensemble=localhost:2181
+2023-12-10 21:36:11,920 INFO  [thrift-worker-7] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@fbd4eee
+2023-12-10 21:36:11,922 INFO  [thrift-worker-7-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-12-10 21:36:11,923 INFO  [thrift-worker-7-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2023-12-10 21:36:11,928 INFO  [thrift-worker-7-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x18c532ef3090010, negotiated timeout = 40000
+2023-12-10 21:40:11,930 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:45059
+2023-12-10 21:53:41,277 INFO  [thrift-worker-7] client.HBaseAdmin: Created bitcoin_table
+2023-12-10 21:54:42,481 INFO  [thrift-worker-9] client.HBaseAdmin: Created bitcoin_table
+2023-12-10 21:58:11,930 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:43431
+2023-12-10 21:58:11,930 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:45059
+2023-12-10 22:04:53,127 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing master protocol: MasterService
+2023-12-10 22:04:53,127 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x18c532ef3090010
+2023-12-10 22:04:53,130 INFO  [ConnectionCache_ChoreService_1] zookeeper.ZooKeeper: Session: 0x18c532ef3090010 closed
+2023-12-10 22:04:53,130 INFO  [thrift-worker-7-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x18c532ef3090010
+2023-12-10 22:07:15,958 INFO  [thrift-worker-11] zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x68d4d8b8 connecting to ZooKeeper ensemble=localhost:2181
+2023-12-10 22:07:15,958 INFO  [thrift-worker-11] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@307bb60f
+2023-12-10 22:07:15,959 INFO  [thrift-worker-11-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-12-10 22:07:15,960 INFO  [thrift-worker-11-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2023-12-10 22:07:15,963 INFO  [thrift-worker-11-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x18c532ef3090011, negotiated timeout = 40000
+2023-12-10 22:07:17,190 INFO  [thrift-worker-11] client.HBaseAdmin: Created bitcoin_table
+2023-12-10 22:11:15,964 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:43431
+2023-12-10 22:11:15,965 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:45059
+2023-12-10 22:19:15,964 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:45059
+2023-12-10 22:26:03,127 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing master protocol: MasterService
+2023-12-10 22:26:03,127 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x18c532ef3090011
+2023-12-10 22:26:03,131 INFO  [ConnectionCache_ChoreService_1] zookeeper.ZooKeeper: Session: 0x18c532ef3090011 closed
+2023-12-10 22:26:03,131 INFO  [thrift-worker-11-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x18c532ef3090011
+Mon Dec 11 02:37:52 PM +07 2023 Starting thrift on tmph2003
+real-time non-blocking time  (microseconds, -R) unlimited
+core file size              (blocks, -c) 0
+data seg size               (kbytes, -d) unlimited
+scheduling priority                 (-e) 0
+file size                   (blocks, -f) unlimited
+pending signals                     (-i) 62540
+max locked memory           (kbytes, -l) 2010668
+max memory size             (kbytes, -m) unlimited
+open files                          (-n) 1024
+pipe size                (512 bytes, -p) 8
+POSIX message queues         (bytes, -q) 819200
+real-time priority                  (-r) 0
+stack size                  (kbytes, -s) 8192
+cpu time                   (seconds, -t) unlimited
+max user processes                  (-u) 62540
+virtual memory              (kbytes, -v) unlimited
+file locks                          (-x) unlimited
+2023-12-11 14:37:52,958 INFO  [main] util.VersionInfo: HBase 1.4.9
+2023-12-11 14:37:52,958 INFO  [main] util.VersionInfo: Source code repository git://apurtell-ltm4.internal.salesforce.com/Users/apurtell/src/hbase revision=d625b212e46d01cb17db9ac2e9e927fdb201afa1
+2023-12-11 14:37:52,958 INFO  [main] util.VersionInfo: Compiled by apurtell on Wed Dec  5 11:54:10 PST 2018
+2023-12-11 14:37:52,958 INFO  [main] util.VersionInfo: From source with checksum a7716fc1849b07ea6dd830a08291e754
+2023-12-11 14:37:53,273 INFO  [main] thrift.ThriftServerRunner: Using default thrift server type
+2023-12-11 14:37:53,273 INFO  [main] thrift.ThriftServerRunner: Using thrift server type threadpool
+2023-12-11 14:37:53,305 WARN  [main] util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2023-12-11 14:37:53,691 INFO  [main] metrics.MetricRegistries: Loaded MetricRegistries class org.apache.hadoop.hbase.metrics.impl.MetricRegistriesImpl
+2023-12-11 14:37:53,817 INFO  [main] mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2023-12-11 14:37:53,820 INFO  [main] http.HttpRequestLog: Http request log for http.requests.thrift is not defined
+2023-12-11 14:37:53,829 INFO  [main] http.HttpServer: Added global filter 'safety' (class=org.apache.hadoop.hbase.http.HttpServer$QuotingInputFilter)
+2023-12-11 14:37:53,829 INFO  [main] http.HttpServer: Added global filter 'clickjackingprevention' (class=org.apache.hadoop.hbase.http.ClickjackingPreventionFilter)
+2023-12-11 14:37:53,832 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context thrift
+2023-12-11 14:37:53,832 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context logs
+2023-12-11 14:37:53,832 INFO  [main] http.HttpServer: Added filter static_user_filter (class=org.apache.hadoop.hbase.http.lib.StaticUserWebFilter$StaticUserFilter) to context static
+2023-12-11 14:37:53,849 INFO  [main] http.HttpServer: Jetty bound to port 9095
+2023-12-11 14:37:53,849 INFO  [main] mortbay.log: jetty-6.1.26
+2023-12-11 14:37:54,081 INFO  [main] mortbay.log: Started SelectChannelConnector@0.0.0.0:9095
+2023-12-11 14:37:54,108 INFO  [main] thrift.ThriftServerRunner: starting TBoundedThreadPoolServer on /0.0.0.0:9090 with readTimeout 60000ms; min worker threads=16, max worker threads=1000, max queued requests=1000
+2023-12-11 23:02:34,282 INFO  [thrift-worker-1] zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x6ee36f78 connecting to ZooKeeper ensemble=localhost:2181
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:host.name=tmph2003
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:java.version=1.8.0_202
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:java.vendor=Oracle Corporation
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:java.home=/home/tmph2003/PhuongStudy/jdk1.8.0_202/jre
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: base-1.4.9/lib/leveldbjni-all-1.8.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/libthrift-0.9.3.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/log4j-1.2.17.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/metrics-core-2.2.0.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/metrics-core-3.1.2.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/netty-all-4.1.8.Final.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/paranamer-2.3.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/protobuf-java-2.5.0.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/servlet-api-2.5-6.1.14.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/slf4j-api-1.7.7.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/slf4j-log4j12-1.7.10.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/snappy-java-1.0.5.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/spymemcached-2.11.6.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/xmlenc-0.52.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/xz-1.0.jar:/home/tmph2003/PhuongStudy/hbase-1.4.9/lib/zookeeper-3.4.10.jar:
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:os.name=Linux
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:os.arch=amd64
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:os.version=6.2.0-39-generic
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:user.name=tmph2003
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:user.home=/home/tmph2003
+2023-12-11 23:02:34,287 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Client environment:user.dir=/home/tmph2003/PhuongStudy/hbase-1.4.9/bin
+2023-12-11 23:02:34,288 INFO  [thrift-worker-1] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@36a08740
+2023-12-11 23:02:34,301 INFO  [thrift-worker-1-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-12-11 23:02:34,305 INFO  [thrift-worker-1-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2023-12-11 23:02:34,314 INFO  [thrift-worker-1-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x18c57cf4cc60007, negotiated timeout = 40000
+2023-12-11 23:02:36,336 INFO  [thrift-worker-1] client.HBaseAdmin: Created bitcoin_table
+2023-12-11 23:06:34,627 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34205
+2023-12-11 23:06:34,627 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34625
+2023-12-11 23:14:34,627 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34625
+2023-12-11 23:24:34,626 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34625
+2023-12-11 23:30:34,627 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34625
+2023-12-11 23:38:34,626 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34625
+2023-12-11 23:45:13,726 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing master protocol: MasterService
+2023-12-11 23:45:13,726 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x18c57cf4cc60007
+2023-12-11 23:45:13,730 INFO  [ConnectionCache_ChoreService_1] zookeeper.ZooKeeper: Session: 0x18c57cf4cc60007 closed
+2023-12-11 23:45:13,731 INFO  [thrift-worker-1-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x18c57cf4cc60007
+2023-12-11 23:45:21,603 INFO  [thrift-worker-2] zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x1d84efd2 connecting to ZooKeeper ensemble=localhost:2181
+2023-12-11 23:45:21,604 INFO  [thrift-worker-2] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@3fd62d05
+2023-12-11 23:45:21,605 INFO  [thrift-worker-2-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-12-11 23:45:21,606 INFO  [thrift-worker-2-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2023-12-11 23:45:21,610 INFO  [thrift-worker-2-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x18c57cf4cc6000a, negotiated timeout = 40000
+2023-12-11 23:57:28,374 INFO  [thrift-worker-0] client.HBaseAdmin: Created crypto_table
+2023-12-12 00:01:21,611 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34205
+2023-12-12 00:01:21,612 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34625
+2023-12-12 00:08:13,726 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing master protocol: MasterService
+2023-12-12 00:08:13,726 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x18c57cf4cc6000a
+2023-12-12 00:08:13,730 INFO  [ConnectionCache_ChoreService_1] zookeeper.ZooKeeper: Session: 0x18c57cf4cc6000a closed
+2023-12-12 00:08:13,730 INFO  [thrift-worker-2-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x18c57cf4cc6000a
+2023-12-12 00:10:57,798 INFO  [thrift-worker-5] zookeeper.RecoverableZooKeeper: Process identifier=hconnection-0x5ec6388f connecting to ZooKeeper ensemble=localhost:2181
+2023-12-12 00:10:57,799 INFO  [thrift-worker-5] zookeeper.ZooKeeper: Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=org.apache.hadoop.hbase.zookeeper.PendingWatcher@165b7ed3
+2023-12-12 00:10:57,800 INFO  [thrift-worker-5-SendThread(localhost:2181)] zookeeper.ClientCnxn: Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2023-12-12 00:10:57,800 INFO  [thrift-worker-5-SendThread(localhost:2181)] zookeeper.ClientCnxn: Socket connection established to localhost/127.0.0.1:2181, initiating session
+2023-12-12 00:10:57,803 INFO  [thrift-worker-5-SendThread(localhost:2181)] zookeeper.ClientCnxn: Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x18c57cf4cc6000b, negotiated timeout = 40000
+2023-12-12 00:10:57,806 INFO  [thrift-worker-5] client.HBaseAdmin: Started disable of crypto_table
+2023-12-12 00:11:00,030 INFO  [thrift-worker-5] client.HBaseAdmin: Disabled crypto_table
+2023-12-12 00:11:01,267 INFO  [thrift-worker-5] client.HBaseAdmin: Deleted crypto_table
+2023-12-12 00:11:17,762 INFO  [thrift-worker-7] client.HBaseAdmin: Created crypto_table
+2023-12-12 00:14:57,804 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34205
+2023-12-12 00:17:12,478 INFO  [thrift-worker-0] client.HBaseAdmin: Started disable of crypto_table
+2023-12-12 00:17:14,691 INFO  [thrift-worker-0] client.HBaseAdmin: Disabled crypto_table
+2023-12-12 00:17:15,907 INFO  [thrift-worker-0] client.HBaseAdmin: Deleted crypto_table
+2023-12-12 00:17:29,508 INFO  [thrift-worker-2] client.HBaseAdmin: Created crypto_table
+2023-12-12 00:20:57,804 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34205
+2023-12-12 00:20:57,804 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34625
+2023-12-12 00:31:45,133 INFO  [thrift-worker-1] client.HBaseAdmin: Started disable of crypto_table
+2023-12-12 00:31:47,347 INFO  [thrift-worker-1] client.HBaseAdmin: Disabled crypto_table
+2023-12-12 00:31:48,564 INFO  [thrift-worker-1] client.HBaseAdmin: Deleted crypto_table
+2023-12-12 00:32:01,115 INFO  [thrift-worker-3] client.HBaseAdmin: Created crypto_table
+2023-12-12 00:34:07,849 INFO  [thrift-worker-7] client.HBaseAdmin: Started disable of crypto_table
+2023-12-12 00:34:10,059 INFO  [thrift-worker-7] client.HBaseAdmin: Disabled crypto_table
+2023-12-12 00:34:11,274 INFO  [thrift-worker-7] client.HBaseAdmin: Deleted crypto_table
+2023-12-12 00:34:24,855 INFO  [thrift-worker-9] client.HBaseAdmin: Created crypto_table
+2023-12-12 00:36:57,804 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34205
+2023-12-12 00:36:57,804 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34625
+2023-12-12 00:40:31,708 INFO  [thrift-worker-12] client.HBaseAdmin: Started disable of crypto_table
+2023-12-12 00:40:33,917 INFO  [thrift-worker-12] client.HBaseAdmin: Disabled crypto_table
+2023-12-12 00:40:35,130 INFO  [thrift-worker-12] client.HBaseAdmin: Deleted crypto_table
+2023-12-12 00:40:48,512 INFO  [thrift-worker-14] client.HBaseAdmin: Created crypto_table
+2023-12-12 00:42:57,804 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34205
+2023-12-12 00:44:57,804 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34625
+2023-12-12 00:47:54,902 INFO  [thrift-worker-4] client.HBaseAdmin: Started disable of crypto_table
+2023-12-12 00:47:57,112 INFO  [thrift-worker-4] client.HBaseAdmin: Disabled crypto_table
+2023-12-12 00:47:58,325 INFO  [thrift-worker-4] client.HBaseAdmin: Deleted crypto_table
+2023-12-12 00:48:06,740 INFO  [thrift-worker-5] client.HBaseAdmin: Created crypto_table
+2023-12-12 00:50:57,804 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34205
+2023-12-12 01:00:57,804 INFO  [Idle-Rpc-Conn-Sweeper-pool3-t1] ipc.AbstractRpcClient: Cleanup idle connection to tmph2003/127.0.1.1:34625
+2023-12-12 01:08:13,726 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing master protocol: MasterService
+2023-12-12 01:08:13,726 INFO  [ConnectionCache_ChoreService_1] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x18c57cf4cc6000b
+2023-12-12 01:08:13,730 INFO  [ConnectionCache_ChoreService_1] zookeeper.ZooKeeper: Session: 0x18c57cf4cc6000b closed
+2023-12-12 01:08:13,730 INFO  [thrift-worker-5-EventThread] zookeeper.ClientCnxn: EventThread shut down for session: 0x18c57cf4cc6000b
