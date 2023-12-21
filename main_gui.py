@@ -7,12 +7,15 @@ import time
 main = main_func.Main()
 
 def import_data():
+    main = main_func.Main()
     if main.stop_import_flag == False:
         messagebox.showinfo("Thông báo", "Getting data")
         import_thread = threading.Thread(target=main.ImportData)
         import_thread.start()
         time.sleep(10)
         main.stop_import_flag = True
+        time.sleep(1)
+        main.stop_import_flag = False
     else:
         messagebox.showinfo("Thông báo", "Stop getting data")
         main.stop_import_flag = False

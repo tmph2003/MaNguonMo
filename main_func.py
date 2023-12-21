@@ -32,7 +32,7 @@ class Main:
             self.hbase.write_oldest_row_key_to_file(FILE_PATH, the_latest_row_key+1)
             the_latest_row_key = self.hbase.read_oldest_row_key_from_file(FILE_PATH)
             print('------------------Finished------------------')
-            time.sleep(5)
+            time.sleep(1)
     
     def display_dataframe(self):
         self.hbase.create_connection()
@@ -64,6 +64,8 @@ class Main:
         df = pd.DataFrame(result)
         df['Date:'] = pd.to_datetime(df['Date:'])
         plt.plot(df['Date:'], df['Close Price:'], label='Bitcoin Price', color='blue')
+        plt.xlabel("Datetime")
+        plt.ylabel("Price")
         plt.show()
 
     def Predict(self, open_price):
