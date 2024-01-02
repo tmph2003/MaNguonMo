@@ -105,22 +105,6 @@ class HBase:
         except Exception as e:
             print("Error show_data_from_table: ", e)
 
-    # def show_data_from_table_cdc(self, limit_row):
-    #     try:
-    #         conn = self.conn
-    #         table = conn.table(self.TABLE_NAME)
-    #         result = []
-    #         for x, y in table.scan(reverse=True, limit=limit_row):
-    #             temp = {
-    #                 "Updated_At": y[b'Updated_At:'].decode('utf-8'),
-    #                 "price": float(y[b'Price:'].decode('utf-8').replace(",","")),
-    #                 "name": y[b'Name:'].decode('utf-8')
-    #             }
-    #             result.append(temp)
-    #         return result
-    #     except Exception as e:
-    #         print("Error show_data_from_table: ", e)
-
     def delete_all_data(self, file_path):
         try:
             conn = self.conn
@@ -186,10 +170,6 @@ class HBase:
 if __name__ == "__main__":
     hbase = HBase()
     hbase.create_connection()
-    # hbase.delete_all_data('latest_row_key.txt')
-    # hbase.create_table()
-    # hbase.put_data_from_csv('BTC-USD.csv')
-    # latest_row_key = hbase.read_oldest_row_key_from_file('latest_row_key.txt')
     hbase.write_oldest_row_key_to_file('latest_row_key.txt', len(hbase.show_data_from_table()))
     index = hbase.read_oldest_row_key_from_file('latest_row_key.txt')
     x = hbase.get_the_latest_row(index)
